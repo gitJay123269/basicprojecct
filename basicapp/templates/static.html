@@ -1,0 +1,18 @@
+<!DOCTYPE html>   
+<head>  
+    <meta charset="UTF-8">  
+    <title>static</title>  
+     {% load static %}
+     <link href = '{% static "css/imgstyle.css" %}' rel='stylesheet' >
+
+     <script src = "{% static 'js/imgjs.js' %}" type = 'text/javascript'>
+     </script>
+</head>  
+<body>  
+<img src="{% static 'images/jayanth.jpg' %}" alt="My image" height="100px" width="100px"/>  
+
+<br>
+
+<button onclick="display()">Click me</button>
+</body>  
+</html>     
