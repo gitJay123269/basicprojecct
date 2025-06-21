@@ -8,7 +8,6 @@ pillow==10.3.0
 pkgconf==2.1.1.post9
 pkgconfig==1.5.5
 PyMySQL==1.1.1
-pypiwin32==223
 python-dateutil==2.9.0.post0
 python-magic==0.4.27
 python-memcached==1.62
